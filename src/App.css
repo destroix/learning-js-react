@@ -1,6 +1,6 @@
 .app_wrapper {
     display: grid;
-    height: 900px;
+    height: 800px;
     gap: 10px;
     margin: 10px 400px 10px;
     grid-template-columns: 200px 1fr;
