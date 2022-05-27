@@ -1,12 +1,8 @@
+body {
+    margin: 0;
+}
 .app_wrapper {
+    text-align: center;
     display: grid;
-    height: 800px;
-    gap: 10px;
-    margin: 10px 400px 10px;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: 100px minmax(200px, auto) 100px;
-    grid-template-areas:
-            "h h"
-            "n c"
-            "f f";
+    grid-template: minmax(100px, auto) 1fr minmax(100px, auto) / 1fr;
 }
