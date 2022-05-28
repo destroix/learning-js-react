@@ -4,10 +4,10 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <aside className='navbar'>
-            <dir>Profile</dir>
-            <dir>Dialogs</dir>
-            <dir>Music</dir>
-            <dir>News</dir>
+            <div>Profile</div>
+            <div>Dialogs</div>
+            <div>Music</div>
+            <div>News</div>
         </aside>
     )
 }

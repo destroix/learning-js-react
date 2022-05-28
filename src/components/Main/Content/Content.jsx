@@ -3,9 +3,9 @@ import './Content.css';
 
 const Content = () => {
     return (
-        <main className='content'>
+        <div className='content'>
             <h1>Content</h1>
-        </main>
+        </div>
     )
 }
 

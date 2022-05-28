@@ -1,8 +1,26 @@
+div#root,
+html,
 body {
+    display: grid;
+    justify-items: center;
+    height: 100%;
     margin: 0;
 }
+
+body {
+    background: url("./img/1594754323_16.jpg") 0 0 / cover no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 33px;
+}
+
 .app_wrapper {
+    min-height: 100%;
     text-align: center;
     display: grid;
-    grid-template: minmax(100px, auto) 1fr minmax(100px, auto) / 1fr;
+    grid-template: minmax(auto, auto) 1fr minmax(auto, auto) / minmax(auto, 1200px);
+    gap: 10px;
 }
+

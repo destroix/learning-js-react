@@ -1,10 +1,13 @@
 import React from "react";
 import './Main.css';
+import Content from "./Content/Content";
+import Navbar from "./Navbar/Navbar";
 
 const Main = () => {
     return (
         <main className='main'>
-            <h1>Main</h1>
+            <Navbar/>
+            <Content/>
         </main>
     )
 }
