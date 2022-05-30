@@ -1,13 +1,15 @@
 import React from "react";
-import './Content.css';
-import Profile from "../Navbar/Profile/Profile";
-import Dialogs from "../Navbar/Dialogs/Dialogs";
+import style from './Content.module.css';
+import Profile from "./Profile/Profile";
+import Dialogs from "./Dialogs/Dialogs";
+import {Route} from "react-router-dom";
+
 
 const Content = () => {
     return (
-        <div className='content'>
-            <Profile/>
-            <Dialogs/>
+        <div className={style.content}>
+            <Route path='/profile' component={Profile}/>
+            <Route path='/dialogs' component={Dialogs}/>
         </div>
     )
 }

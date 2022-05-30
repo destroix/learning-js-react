@@ -1,0 +1,9 @@
+.navbar {
+    font-size: 33px;
+    grid-area: n;
+    border: 1px white dashed;
+}
+
+.navbar a {
+    text-decoration: none;
+}

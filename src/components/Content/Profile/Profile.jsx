@@ -1,10 +1,10 @@
 import React from "react";
-import './Profile.css'
+import style from './Profile.module.css';
 
 const Profile = () => {
     return (
-        <div>
-            <h1>Profile</h1>
+        <div className={style.profile}>
+            <h1>profile</h1>
         </div>
     )
 }

@@ -1,16 +1,19 @@
 import React from "react";
-import './Navbar.css';
+import style from './Navbar.module.css';
 
 const Navbar = () => {
     return (
-        <aside className='navbar'>
-            <div>
+        <nav className={style.navbar}>
+
+            <div className={style.item}>
                 <a href="/profile">Profile</a>
             </div>
-            <div>
+
+            <div className={style.item}>
                 <a href="/dialogs">Dialogs</a>
             </div>
-        </aside>
+
+        </nav>
     )
 }
 
