@@ -2,8 +2,15 @@
     font-size: 33px;
     grid-area: n;
     border: 1px white dashed;
+    padding-top: 20px;
+
 }
 
-.navbar a {
+.item a {
     text-decoration: none;
+    color: black;
+}
+
+.item a.activeLink {
+    color: white;
 }

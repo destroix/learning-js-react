@@ -1,9 +1,9 @@
 import React from "react";
-import style from './Profile.module.css';
+import s from './Profile.module.css';
 
 const Profile = () => {
     return (
-        <div className={style.profile}>
+        <div className={s.profile}>
             <h1>profile</h1>
         </div>
     )

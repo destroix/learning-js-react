@@ -1,9 +1,9 @@
 import React from "react";
-import style from './Dialogs.module.css';
+import s from './Dialogs.module.css';
 
 const Dialogs = () => {
     return (
-        <div className={style.dialogs}>
+        <div className={s.dialogs}>
             <h1>dialogs</h1>
         </div>
     )
