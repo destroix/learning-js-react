@@ -1,3 +1,4 @@
 .content {
+    grid-area: c;
     border: 1px white dashed;
 }

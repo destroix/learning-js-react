@@ -18,9 +18,14 @@ h1 {
 
 .app_wrapper {
     min-height: 100%;
+    width: 1200px;
     text-align: center;
     display: grid;
-    grid-template: minmax(auto, auto) 1fr minmax(auto, auto) / minmax(auto, 1200px);
+    grid-template: minmax(auto, 100px) 1fr minmax(auto, 100px) / minmax(auto, 200px) minmax(auto, auto);
+    grid-template-areas:
+            "h h"
+            "n c"
+            "f f";
     gap: 10px;
 }
 
