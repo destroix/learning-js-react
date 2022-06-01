@@ -11,6 +11,6 @@
     color: black;
 }
 
-.item a.activeLink {
-    color: white;
+.item a.active {
+    color: red;
 }

@@ -6,10 +6,22 @@ const Navbar = () => {
     return (
         <nav className={s.navbar}>
             <div className={s.item}>
-                <NavLink to="/profile" activeClassName={s.activeLink}>Profile</NavLink>
+                <NavLink
+                    to="/profile"
+                    className={({isActive}) =>
+                        isActive ? s.active : undefined
+                    }
+                >
+                    Profile</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to="/dialogs" activeClassName={s.activeLink}>Dialogs</NavLink>
+                <NavLink
+                    to="/dialogs"
+                    className={({isActive}) =>
+                        isActive ? s.active : undefined
+                    }
+                >
+                    Dialogs</NavLink>
             </div>
         </nav>
     )
